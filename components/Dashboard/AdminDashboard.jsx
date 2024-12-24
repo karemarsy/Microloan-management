@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { CheckCircle, XCircle, Clock } from 'lucide-react';
 
 const AdminDashboard = () => {
-  // Simulated loan applications data
   const [loanApplications, setLoanApplications] = useState([
     {
       id: 1,
@@ -23,7 +22,6 @@ const AdminDashboard = () => {
   const handleLoanAction = async (id, action) => {
     try {
       // API call would go here
-      // await updateLoanStatus(id, action);
       
       setLoanApplications(prev =>
         prev.map(loan =>

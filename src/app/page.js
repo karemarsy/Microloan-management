@@ -1,5 +1,6 @@
-import LoanApplicationForm from "../../components/LoanApplicationForm";
-import NavBar from "../../components/NavBar";
+import "./globals.css";
+import LoanApplicationForm from "../../components/Loan/LoanApplicationForm";
+
 
 export default function Home() {
   return (

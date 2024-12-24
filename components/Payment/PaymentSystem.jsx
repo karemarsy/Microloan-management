@@ -42,7 +42,6 @@ const PaymentSystem = ({ loanId }) => {
 
     try {
       // API call would go here
-      // await processPayment({ loanId, amount: paymentAmount });
       console.log('Processing payment:', { loanId, amount: paymentAmount });
       setPaymentAmount('');
     } catch (err) {

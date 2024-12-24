@@ -1,6 +1,6 @@
 // services/api.js
 
-const BASE_URL = 'api/v1';  // Would be environment variable in production
+const BASE_URL = 'api/v1';  
 
 // Authentication Service
 export const authService = {
